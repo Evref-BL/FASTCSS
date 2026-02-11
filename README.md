@@ -16,7 +16,7 @@ To load FASTCSS in Pharo, execute the following in a Moose image:
 ```smalltalk  
 Metacello new  
   baseline: 'FASTCSS';  
-  repository: 'github://Evref-BL/FASTCSS:master';  
+  repository: 'github://Evref-BL/FASTCSS:main';  
   load.
 ```  
 
