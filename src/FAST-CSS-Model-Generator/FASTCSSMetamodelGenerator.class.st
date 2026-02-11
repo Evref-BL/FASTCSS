@@ -171,10 +171,10 @@ FASTCSSMetamodelGenerator >> defineHierarchy [
 	entity --|> tEntity.
 	
 	stylesheet --|> #THasImmediateSource.
-	stylesheet withPrecedenceOf: #THasImmediateSource.
-
+	"stylesheet withPrecedenceOf: #THasImmediateSource."
+	
 	_ERROR --|> #THasImmediateSource.
-	_ERROR withPrecedenceOf: #THasImmediateSource.
+	"_ERROR withPrecedenceOf: #THasImmediateSource."
 ]
 
 { #category : 'definition' }
