@@ -29,7 +29,7 @@ But for more details, you can have a look at this [blog-post][tree-sitter-blog].
 To use it in Pharo, you can check example below:
 
 ```smalltalk  
-res := FASTCSS new parse:  'body {
+res := FASTCSSParser new parse:  'body {
   background-color: linen;
 }'. 
 ```  
