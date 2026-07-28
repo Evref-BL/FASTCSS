@@ -47,7 +47,7 @@ BaselineOfFASTCSS >> defineDependencies: spec [
 
 	spec baseline: 'TreeSitter' with: [
 		spec
-			loads: #( 'default' 'css' );
+			loads: #( 'moose' 'css' );
 			repository: 'github://Evref-BL/Pharo-Tree-Sitter:main/src' ]
 
 ]
